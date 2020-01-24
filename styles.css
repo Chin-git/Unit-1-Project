@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #122B4C;
 }
 /* Link Styles */
 
@@ -126,6 +126,7 @@ footer .copyright {
   top: -8px;
   margin-right: 20px;
   font-size: .75em;
+  color: white
 }
 
 footer ul {
