@@ -2,12 +2,18 @@
     font-family: "Arial"
 }
 
-.main-image {
+header .main-image {
+  margin-top: 50px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
+  
+}
+
+header .main-image:hover {
+    transform: scale(1.2) rotate(360deg);
 }
 
 h1 {
@@ -18,13 +24,4 @@ h1 {
 
 .section-title {
     text-transform: uppercase;
-}
-
-.resume-name {
-  background-color: ;
-  color: black;
-  padding: 10px;
-  border-radius: 5px;
-  display: table;
-  margin: 10px auto;
 }
