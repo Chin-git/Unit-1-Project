@@ -8,24 +8,24 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #122B4C;
+  color: #0D0D0D;
+  background-color: #0D0D0D;
 }
 /* Link Styles */
 
 a { /* selector: select which HTML tag you want to style */ 
   text-decoration: none; /* styling instructions */
-  color: #0499ff; /* purple text are the ccs properties */
+  color: #51A69D; /* purple text are the ccs properties */
 }
 a:hover {
-  color: #6633ff;
+  color: #BFBFBF;
 }
 
 /* Section Styles */
 
 .main-nav { /* styling by class */ 
   width: 100%;
-  background: black;
+  background: #0D0D0D;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -72,35 +72,40 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid #0D0D0D;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: #122B4C;
-  color: skyblue;
+  background-color: #0D0D0D;
+  color: #51A69D;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: white;
+  background-color: #BFBFBF;
+  color: #0D0D0D;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  background: #BFBFBF;
+  border-bottom: 4px solid #0D0D0D;
+  border-radius: 60px;
+  border-left: 4px solid #0D0D0D;
+  border-top: 4px solid #0D0D0D;
+  border-right: 4px solid #0D0D0D;
+  transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #51A69D;
+  transform: scale(1.2);
 }
 
 ul.skills {
@@ -129,9 +134,9 @@ footer {
 
 footer .copyright {
   top: -8px;
-  margin-right: 20px;
+  margin-right: 0px;
   font-size: .75em;
-  color: white
+  color: whitesmoke;
 }
 
 footer ul {
@@ -142,28 +147,32 @@ footer ul {
 
 footer ul li {
   display: inline-block;
+  margin: 0 5px;
 }
 
-a.social {
-  display: inline-block;
-  text-indent: -9999px;
-  margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
-  opacity: .5;
-  transition: all .25s;
+footer ul li a {
+    opacity: 0.8;
+    font-size: 30px
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
+
+footer ul li a i.fa-twitter:hover {
+  color: white;
+  opacity: 1;
+  
 }
-a.linkedin {
-  background-image: url(images/linkedin.svg);
+
+footer ul li a i.fa-instagram:hover {
+  color: orange;
+  opacity: 1;
 }
-a.github {
-  background-image: url(images/github.svg);
+
+footer ul li a i.fa-github:hover {
+  color: black;
+  opacity: 1;
 }
-a.social:hover {
+
+footer ul li a i.fa-linkedin:hover {
+  color: skyblue;
   opacity: 1;
 }
 .clearfix {
@@ -182,6 +191,7 @@ a.social:hover {
 
   header {
     min-height: 450px;
+    font: "Arial";
   }
 
   .nav {
@@ -196,6 +206,7 @@ a.social:hover {
 
   main {
     padding-top: 50px;
+    font: "Arial";
   }
 
   main p {
@@ -205,21 +216,16 @@ a.social:hover {
   footer {
     font-size: 1.3em;
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 200px auto;
+    margin-bottom: auto;
   }
 
 }
 
-h3 {
-    color: orange;
-    letter-spacing: .5px;
-}
 
 .card-title { /* styling by class */
     text-align: center;
-    border: solid black 3px;
-    border-radius: 10px;
-    /* padding: 150px; Space between the element and it's border */
-    margin-top: 50px; /* controls space outside the border */
-    background: 
+    border-radius: 60px;
+    letter-spacing: .9px;
 }
+
