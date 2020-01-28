@@ -105,9 +105,9 @@ header .profile-image:hover {
   border-right: 4px solid #0D0D0D;    
 }
 .card {
-  margin: 30px;
+  margin: 20px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 10000px;
   text-align: left;
   background: #BFBFBF;
   border-bottom: 4px solid #0D0D0D;
@@ -117,11 +117,14 @@ header .profile-image:hover {
   border-right: 4px solid #0D0D0D;
   transition: all .5s;
   box-shadow: 10px 10px 2px 0px #51A69D;
-  text-align: center;
 }
 
 .card p {
-    font-weight: 600;
+    text-align: center;
+}
+
+.card ul {
+    text-align: center;
 }
 
 .card:hover {
