@@ -273,3 +273,7 @@ footer ul li a i.fa-twitch:hover {
     letter-spacing: .9px;
 }
 
+.card img {
+    border-radius: 60px;
+    max-width: 400px
+}
