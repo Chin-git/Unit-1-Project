@@ -108,7 +108,6 @@ header .profile-image:hover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 1000px;
-  text-align: left;
   background: #BFBFBF;
   border-bottom: 4px solid #0D0D0D;
   border-radius: 60px;
@@ -208,7 +207,7 @@ footer ul li a i.fa-instagram:hover {
 }
 
 footer ul li a i.fa-github:hover {
-  color: #24292D;
+  color: whitesmoke;
   opacity: 1;
 }
 
@@ -276,4 +275,8 @@ footer ul li a i.fa-twitch:hover {
 .card img {
     border-radius: 60px;
     max-width: 400px
+}
+
+.card h3 {
+    text-align: center;
 }
