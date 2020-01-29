@@ -5,7 +5,7 @@ header .main-image {
   height: 150px;
   border-radius: 50%;
   border: 3px solid #0D0D0D;
-  transition: all .5s;
+  transition: all .4s;
 }
 
 header .main-image:hover {

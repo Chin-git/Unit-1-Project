@@ -75,10 +75,10 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   border: 3px solid #0D0D0D;
-  transition: all .5s;
+  transition: all 1s;
 }
 header .profile-image:hover {
-  transform: scale(1.1) rotate(360deg);
+  transform: scale(1.1) rotate(720deg);
 }
 .tag {
   background-color: #BFBFBF;
@@ -105,9 +105,9 @@ header .profile-image:hover {
   border-right: 4px solid #0D0D0D;    
 }
 .card {
-  margin: 20px;
+  margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 10000px;
+  max-width: 1000px;
   text-align: left;
   background: #BFBFBF;
   border-bottom: 4px solid #0D0D0D;
@@ -127,6 +127,9 @@ header .profile-image:hover {
     text-align: center;
 }
 
+.card li {
+    text-align: center;
+}
 .card:hover {
   border-color: #51A69D;
   transform: scale(1.1);
@@ -227,7 +230,7 @@ footer ul li a i.fa-twitch:hover {
   
   .flex {
       display: flex;
-      max-width: 1200px;
+      max-width: 1600px;
       justify-content: space-around;
       margin: 0 auto;
   }
