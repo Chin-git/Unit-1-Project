@@ -14,7 +14,7 @@ body {
 
 a {  
   text-decoration: none; 
-  color: #51A69D; 
+  color: #51A69D;
 }
 a:hover {
   color: #88A66A;
@@ -87,32 +87,25 @@ header .profile-image:hover {
   margin: 10px auto;
   border-radius: 20px;
   letter-spacing: .9px;
-  border-bottom: 4px solid #0D0D0D;
-  border-left: 4px solid #0D0D0D;
-  border-top: 4px solid #0D0D0D;
-  border-right: 4px solid #0D0D0D;
   box-shadow: 3px 3px 2px #51A69D;
+  border: 4px solid #0D0D0D;
+
 } 
 .location {
   background-color: #BFBFBF;
   color: #0D0D0D;
   box-shadow: 3px 3px 2px 0px #51A69D;
-  border-bottom: 4px solid #0D0D0D;
   border-radius: 20px;
-  border-left: 4px solid #0D0D0D;
-  border-top: 4px solid #0D0D0D;
-  border-right: 4px solid #0D0D0D;    
+  border: 4px solid #0D0D0D;
+
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 1000px;
   background: #BFBFBF;
-  border-bottom: 4px solid #0D0D0D;
   border-radius: 60px;
-  border-left: 4px solid #0D0D0D;
-  border-top: 4px solid #0D0D0D;
-  border-right: 4px solid #0D0D0D;
+  border: 4px solid #0D0D0D;
   transition: all .5s;
   box-shadow: 10px 10px 2px 0px #51A69D;
 }
@@ -181,43 +174,35 @@ footer ul {
 
 footer ul li {
   display: inline-block;
-  margin: 0 5px;
+  padding: 0 5px;
 }
 
 footer ul li a {
-    opacity: 0.8;
     font-size: 30px;
-
 }
 
 footer ul li a i {
     transition: all .5s;
-
 }
 
-footer ul li a i.fa-twitter:hover {
+.fa-twitter:hover {
   color: #2DAAE1;
-  opacity: 1;
 }
 
-footer ul li a i.fa-instagram:hover {
+.fa-instagram:hover {
   color: orange;
-  opacity: 1;
 }
 
-footer ul li a i.fa-github:hover {
-  color: whitesmoke;
-  opacity: 1;
+.fa-github:hover {
+  color: whitesmoke; 
 }
 
-footer ul li a i.fa-linkedin:hover {
+.fa-linkedin:hover {
   color: #0077B7;
-  opacity: 1;
 }
 
-footer ul li a i.fa-twitch:hover {
+.fa-twitch:hover {
     color: #9246FF;
-    opacity: 1;
 }
 .clearfix {
   clear: both;
@@ -228,10 +213,11 @@ footer ul li a i.fa-twitch:hover {
   
   .flex {
       display: flex;
-      max-width: 1600px;
+      max-width: 2000px;
       justify-content: space-around;
-      margin: 0 auto;
+      margin: auto;
   }
+
 
   header {
     min-height: 450px;
@@ -264,6 +250,18 @@ footer ul li a i.fa-twitch:hover {
 
 }
 
+@media (max-width: 768px) {
+    img {
+       width: 90%;
+    }
+}
+
+@media (max-width: 1080px) { 
+    .card {
+        padding: 0 10px
+    }
+}
+
 
 .card-title { /* styling by class */
     text-align: center;
@@ -273,7 +271,8 @@ footer ul li a i.fa-twitch:hover {
 
 .card img {
     border-radius: 60px;
-    max-width: 400px
+    max-width: 400px;
+    margin: auto;
 }
 
 .card h3 {
